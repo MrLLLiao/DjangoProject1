@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="add administrator account">
+      <change afterPath="$PROJECT_DIR$/login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Work/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Work/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -108,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762160802451</updated>
       <workItem from="1762160803493" duration="2420000" />
-      <workItem from="1762255677354" duration="1416000" />
+      <workItem from="1762255677354" duration="2819000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762256501671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add administrator account">
+      <option name="closed" value="true" />
+      <created>1762257146040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762257146040</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
