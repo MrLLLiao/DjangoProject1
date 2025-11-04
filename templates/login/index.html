@@ -5,6 +5,15 @@
     <title>Homepage</title>
 </head>
 <body>
-    <h1>This is Homepage</h1>
+    <div class="col-sm">
+        <h2 style="text-align: center">This is Home page</h2>
+        <a href="{% url 'login' %}" class="text-success">
+            <ins>Login</ins>
+        </a><br/>
+        <a href="{% url 'register' %}" class="text-success">
+            <ins>Register</ins>
+        </a>
+    </div>
+
 </body>
 </html>

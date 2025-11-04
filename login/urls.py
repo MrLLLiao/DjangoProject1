@@ -1,11 +1,11 @@
-from django.urls import path, include
+from django.urls import path, include, re_path
 from django.utils.functional import new_method_proxy
 
 from login import views
 
 urlpatterns = [
-    path('index/', views.index, name='index'),
-    path('login/', views.login, name='login'),
-    path('register/', views.register, name='register'),
-    path('logout', views.logout, name='logout'),
+    re_path('^index/$', views.index, name='index'),
+    re_path('^login/$', views.login, name='login'),
+    re_path('^register/$', views.register, name='register'),
+    re_path('^logout/$', views.logout, name='logout'),
 ]
