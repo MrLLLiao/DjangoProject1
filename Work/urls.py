@@ -25,4 +25,5 @@ from . import homepage
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(r'', include('login.urls')),
+    path('main/', homepage.homepage, name='main'),
 ]
