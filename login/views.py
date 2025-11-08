@@ -60,7 +60,7 @@ def login(request):
             message = "Invalid username or password."
             return render(request, 'login/login.html', {'message': message})
     return render(request, 'login/login.html')
-
+@login_required
 def main(request):
     username = request.session.get('username')
     return render(request, 'main.html', {'username': username})
