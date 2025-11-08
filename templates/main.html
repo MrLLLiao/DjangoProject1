@@ -7,8 +7,6 @@
 <body>
     {% if request.session.username %}
         <h1 style="text-align: center">Hello, {{ request.session.username }}</h1>
-    {% else %}
-        <h1 style="text-align: center">Hello, Guest!</h1>
     {% endif %}
     <div class="col-cm">
             <a href="/logout/" class="text-success">

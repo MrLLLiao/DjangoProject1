@@ -13,7 +13,7 @@ class Siteuser(models.Model):
 
     username = models.CharField(max_length = 128, unique = True, verbose_name = 'Username')
 
-    password = models.CharField(max_length = 100, unique = True, verbose_name = 'Password')
+    password = models.CharField(max_length = 100, verbose_name = 'Password')
 
     email = models.EmailField(unique = True, verbose_name = 'Email')
 
