@@ -13,19 +13,47 @@
             color: white;                  /* 字体颜色，方便在深背景上看清 */
             font-family: Arial, sans-serif;
         }
-
-        .content {
+        /* ===== 内容卡片 ===== */
+        .card {
+            background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+            padding: 40px 60px;
+            border-radius: 20px;
             text-align: center;
-            margin-top: 20%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        /* ===== 按钮样式 ===== */
+        .logout-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid white;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .logout-btn:hover {
+            background-color: white;
+            color: black;
         }
     </style>
 </head>
 <body>
-    {% if request.session.username %}
-        <h1 style="text-align: center">Hello, {{ request.session.username }}</h1>
-    {% endif %}
-    <div class="col-cm">
-            <a href="/logout/" class="text-success">
+    
+    <div class="card">
+            {% if request.session.username %}
+            <h1 style="text-align: center">Hello, {{ request.session.username }}</h1>
+            {% endif %}
+            <a href="/logout/" class="logout-btn">
                 <ins>Logout</ins>
             </a>
     </div>

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="添加main页面非登录用户直接重定向到login界面">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="添加main页面背景，利用github当作图床">
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
@@ -112,7 +111,7 @@
       <workItem from="1762432338551" duration="1789000" />
       <workItem from="1762441199808" duration="1719000" />
       <workItem from="1762499219514" duration="164000" />
-      <workItem from="1762576169672" duration="1342000" />
+      <workItem from="1762576169672" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -202,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762577078228</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加main页面背景，利用github当作图床">
+      <option name="closed" value="true" />
+      <created>1762577577376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762577577376</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +234,7 @@
     <MESSAGE value="add login #2" />
     <MESSAGE value="website complete!" />
     <MESSAGE value="添加main页面非登录用户直接重定向到login界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加main页面非登录用户直接重定向到login界面" />
+    <MESSAGE value="添加main页面背景，利用github当作图床" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加main页面背景，利用github当作图床" />
   </component>
 </project>
