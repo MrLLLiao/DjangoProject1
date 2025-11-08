@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <title>Homepage</title>
     <style>
         body {
-            background-image: url("https://github.com/MrLLLiao/Image/blob/img/img/DSC_4190(2).JPG?raw=true"); /* 背景图片路径 */
+            background-image: url("{% static 'bg.JPG' %}"); /* 背景图片路径 */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
