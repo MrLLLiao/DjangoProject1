@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="所有界面美化">
-      <change afterPath="$PROJECT_DIR$/login/settings.py" afterDir="false" />
+    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="将图片更改为本地加载">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Work/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
       <workItem from="1762432338551" duration="1789000" />
       <workItem from="1762441199808" duration="1719000" />
       <workItem from="1762499219514" duration="164000" />
-      <workItem from="1762576169672" duration="3934000" />
+      <workItem from="1762576169672" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -245,7 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762579208642</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="将图片更改为本地加载">
+      <option name="closed" value="true" />
+      <created>1762580302662</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762580302662</updated>
+    </task>
+    <task id="LOCAL-00017" summary="将图片更改为本地加载">
+      <option name="closed" value="true" />
+      <created>1762580367230</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762580367230</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +284,7 @@
     <MESSAGE value="所有界面美化页面美化" />
     <MESSAGE value="main页面美化" />
     <MESSAGE value="所有界面美化" />
-    <option name="LAST_COMMIT_MESSAGE" value="所有界面美化" />
+    <MESSAGE value="将图片更改为本地加载" />
+    <option name="LAST_COMMIT_MESSAGE" value="将图片更改为本地加载" />
   </component>
 </project>
