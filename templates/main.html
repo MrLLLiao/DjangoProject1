@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>KKKKKillua</title>
+    <style>
+        body {
+            background-image: url("https://github.com/MrLLLiao/Image/blob/img/img/DSC_4190(2).JPG?raw=true"); /* 背景图片路径 */
+            background-size: cover;        /* 铺满整个页面 */
+            background-repeat: no-repeat;  /* 不重复 */
+            background-attachment: fixed;  /* 背景固定不随滚动条移动 */
+            background-position: center;   /* 居中显示 */
+            color: white;                  /* 字体颜色，方便在深背景上看清 */
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
 </head>
 <body>
     {% if request.session.username %}

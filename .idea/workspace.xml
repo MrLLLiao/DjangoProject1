@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="website complete!">
+    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="添加main页面非登录用户直接重定向到login界面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/login/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -114,7 +112,7 @@
       <workItem from="1762432338551" duration="1789000" />
       <workItem from="1762441199808" duration="1719000" />
       <workItem from="1762499219514" duration="164000" />
-      <workItem from="1762576169672" duration="663000" />
+      <workItem from="1762576169672" duration="1342000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -180,7 +178,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762441715042</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加main页面非登录用户直接重定向到login界面">
+      <option name="closed" value="true" />
+      <created>1762577005035</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762577005035</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加main页面非登录用户直接重定向到login界面">
+      <option name="closed" value="true" />
+      <created>1762577011094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762577011094</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加main页面非登录用户直接重定向到login界面">
+      <option name="closed" value="true" />
+      <created>1762577078228</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762577078228</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +226,7 @@
     <MESSAGE value="add login #1" />
     <MESSAGE value="add login #2" />
     <MESSAGE value="website complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="website complete!" />
+    <MESSAGE value="添加main页面非登录用户直接重定向到login界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加main页面非登录用户直接重定向到login界面" />
   </component>
 </project>
