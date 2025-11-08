@@ -3,15 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <style>
+        body {
+            background-image: url("https://github.com/MrLLLiao/Image/blob/img/img/DSC_4190(2).JPG?raw=true"); /* 背景图片路径 */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .card {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px 60px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .login_and_reg-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid white;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .login_and_reg-btn:hover {
+            background-color: white;
+            color: black;
+        }
+        
+        </style>
 </head>
 <body>
-    <div class="col-sm">
-        <h2 style="text-align: center">This is Home page</h2>
-        <a href="{% url 'login' %}" class="text-success">
-            <ins>Login</ins>
+    <div class="card">
+        <h1 style="text-align: center">This is Home page</h2>
+        <a href="{% url 'login' %}" class="login_and_reg-btn">
+            Login
         </a><br/>
-        <a href="{% url 'register' %}" class="text-success">
-            <ins>Register</ins>
+        <a href="{% url 'register' %}" class="login_and_reg-btn">
+            Register
         </a>
     </div>
 

@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="添加main页面背景，利用github当作图床">
+    <list default="true" id="10af061f-566f-4264-8c31-2f706e7aaba9" name="更改" comment="main页面美化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +115,7 @@
       <workItem from="1762432338551" duration="1789000" />
       <workItem from="1762441199808" duration="1719000" />
       <workItem from="1762499219514" duration="164000" />
-      <workItem from="1762576169672" duration="1684000" />
+      <workItem from="1762576169672" duration="2984000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -209,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762577577376</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="main页面美化">
+      <option name="closed" value="true" />
+      <created>1762577871818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762577871818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +247,7 @@
     <MESSAGE value="website complete!" />
     <MESSAGE value="添加main页面非登录用户直接重定向到login界面" />
     <MESSAGE value="添加main页面背景，利用github当作图床" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加main页面背景，利用github当作图床" />
+    <MESSAGE value="main页面美化" />
+    <option name="LAST_COMMIT_MESSAGE" value="main页面美化" />
   </component>
 </project>

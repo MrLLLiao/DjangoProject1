@@ -48,14 +48,12 @@
     </style>
 </head>
 <body>
-    
+
     <div class="card">
             {% if request.session.username %}
             <h1 style="text-align: center">Hello, {{ request.session.username }}</h1>
             {% endif %}
-            <a href="/logout/" class="logout-btn">
-                <ins>Logout</ins>
-            </a>
+            <a href="/logout/" class="logout-btn">Logout</a>
     </div>
 </body>
 </html>
